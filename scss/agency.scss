@@ -1,3 +1,8 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
 // Core variables and mixins
 @import "base/variables.scss";
 @import "base/mixins.scss";
