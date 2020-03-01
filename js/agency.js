@@ -32,7 +32,7 @@
       items: 3,
       loop: true,
       stagePadding: 0,
-      margin: 0,
+      margin: 40,
       autoplay: false,
       pauseOnHover: true,
       dots:false,
