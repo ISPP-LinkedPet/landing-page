@@ -1,11 +1,21 @@
 // Styling for the masthead
 
+.intro-text{
+
+  @media(max-width:850px){
+    padding-top: 100px;
+
+  }
+}
+
 .cover-img {
   border: 20px solid $white;
   box-shadow: 0 2px 20px -5px rgba($black, .3);
   @include media-breakpoint-up(md) {
     transform: rotate(10deg);
   }
+
+  
 }
 .cover-img2 {
   position: absolute;
@@ -17,12 +27,15 @@
   @include media-breakpoint-up(md) {
     transform: rotate(-10deg);
   }
+  @media(max-width:850px){
+    margin-left: 25%;
+    transform: rotate(-10deg);
+  }
 }
 
 header.masthead {
   text-align: center;
   color: black;
-  //background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
