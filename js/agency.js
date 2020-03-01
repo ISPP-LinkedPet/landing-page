@@ -37,7 +37,7 @@
       pauseOnHover: true,
       dots:false,
       nav: true,
-      navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+      navText : ["<i class='fa fa-arrow-left fa-3x' aria-hidden='true'></i>","<i class='fa fa-arrow-right fa-3x' aria-hidden='true'></i>"],
       responsive:{
         0:{
             items:1
