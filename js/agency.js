@@ -28,7 +28,7 @@
 
   $(document).ready(function() {
     $('#owl-team').owlCarousel({
-      center: true,
+      center: false,
       items: 3,
       loop: true,
       stagePadding: 0,
