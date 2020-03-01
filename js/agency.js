@@ -26,6 +26,32 @@
     offset: 56
   });
 
+  $(document).ready(function() {
+    $('#owl-team').owlCarousel({
+      center: true,
+      items: 3,
+      loop: true,
+      stagePadding: 0,
+      margin: 0,
+      autoplay: false,
+      pauseOnHover: true,
+      dots:false,
+      nav: true,
+      navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+      }
+    });
+  });
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
