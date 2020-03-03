@@ -615,9 +615,15 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
-  width: 180px;
+  width: auto;
   height: auto;
   border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: px) {
+  .team-member img {
+    width: 25%;
+  }
 }
 
 .team-member h4 {
