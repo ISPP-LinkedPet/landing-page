@@ -20,3 +20,16 @@
     margin-top: 0;
   }
 }
+
+.owl-carousel .owl-item img {
+  @media(max-width: 1000px){
+    width: 75%;
+    height: auto;
+    border: 7px solid fade-out($black, 0.9);
+  };
+  @media(max-width: 600px){
+    width: 50%;
+    height: auto;
+    border: 7px solid fade-out($black, 0.9);
+  };
+}

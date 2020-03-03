@@ -95,13 +95,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: green;
+  border-color: green;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #0069d9 !important;
-  border-color: #0069d9 !important;
+  background-color: #005a00 !important;
+  border-color: #005a00 !important;
   color: white;
 }
 
@@ -110,7 +110,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #20C45F;
+  background-color: #ced4da;
 }
 
 #mainNav .navbar-toggler {
@@ -133,6 +133,11 @@ img::-moz-selection {
     &:hover {
       color: darken($primary, 10%);
     }*/
+}
+
+#mainNav .navbar-brand img {
+  width: 5%;
+  height: auto;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -160,6 +165,8 @@ img::-moz-selection {
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: all 0.3s;
+    @me min-width:992px
+      img {}
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -170,7 +177,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #20C45F;
+    background-color: #ced4da;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -488,7 +495,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #007bff;
+  background-color: green;
 }
 
 .timeline > li .timeline-image h4 {
@@ -634,6 +641,22 @@ header.masthead .intro-text .intro-heading {
 
 .team-member p {
   margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+  .owl-carousel .owl-item img {
+    width: 75%;
+    height: auto;
+    border: 7px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 600px) {
+  .owl-carousel .owl-item img {
+    width: 50%;
+    height: auto;
+    border: 7px solid rgba(0, 0, 0, 0.1);
+  }
 }
 
 section#contact {
