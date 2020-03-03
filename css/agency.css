@@ -135,11 +135,6 @@ img::-moz-selection {
     }*/
 }
 
-#mainNav .navbar-brand img {
-  width: 5%;
-  height: auto;
-}
-
 #mainNav .navbar-nav .nav-item .nav-link {
   font-style: bold;
   font-size: 90%;
@@ -165,8 +160,6 @@ img::-moz-selection {
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: all 0.3s;
-    @me min-width:992px
-      img {}
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
