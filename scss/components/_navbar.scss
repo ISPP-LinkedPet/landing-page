@@ -11,6 +11,9 @@
     background-color: green;
     @include heading-font;
   }
+  img {
+    width: 5%;
+  }
   .navbar-brand {
     
     color: green;
