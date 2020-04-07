@@ -18,9 +18,9 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $this = $("#sendMessageButton");
-      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      $this.prop("disabled", true);
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: "https://backend-linkedpet-dev.herokuapp.com/administrator/contactMe",
         type: "POST",
         data: {
           name: name,

@@ -52,6 +52,27 @@
     });
   });
 
+
+  $(document).ready(function() {
+    $('#owl-ad').owlCarousel({
+      center: false,
+      items: 3,
+      loop: true,
+      stagePadding: 0,
+      margin: 40,
+      autoplay: false,
+      pauseOnHover: true,
+      dots:false,
+      nav: true,
+      navText : ["<i class='fa fa-arrow-left fa-3x' aria-hidden='true'></i>","<i class='fa fa-arrow-right fa-3x' aria-hidden='true'></i>"],
+      responsive:{
+        0:{
+            items:1
+        }
+      }
+    });
+  });
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
